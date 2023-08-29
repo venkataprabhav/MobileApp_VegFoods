@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:vm="clr-namespace:VegFoods.ViewModels"
+			 x:Class="VegFoods.Views.MainPage"
+			 x:DataType="vm:MainViewModel">
+
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+
+        <VerticalStackLayout Spacing="10">
+            <Label Text="Welcome!" FontSize="27" TextColor="LightGreen" HorizontalTextAlignment="Center"/>
+            <Label Text="Login to your Account!" FontSize="20" TextColor="LightGreen" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Frame ZIndex="2" HasShadow="True" HeightRequest="60" WidthRequest="60" CornerRadius="30"/>
+            <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Entry Text="{Binding Email}" TextColor="Black" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="E-mail" Keyboard="Email"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Frame ZIndex="2" HasShadow="True" HeightRequest="60" WidthRequest="60" CornerRadius="30"/>
+            <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Entry Text="{Binding Password}" TextColor="Black"  Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" IsPassword="True"/>
+            </Frame>
+        </StackLayout>
+
+        <Button Text="Sign In" BackgroundColor="LightGreen" HorizontalOptions="Center" WidthRequest="100" CornerRadius="20" Command="{Binding LoginCommand}"/>
+
+        <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+            <Label Text="Don't have an account?"/>
+        </StackLayout>
+        <StackLayout>
+            <Button Text="Create an account!" TextColor="DarkOliveGreen" Command="{Binding GoRegisterCommand}" HorizontalOptions="Center"/>
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

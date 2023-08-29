@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VegFoods.Views.Dashboard.DashboardPage"
+             Title="Dashboard">
+    <VerticalStackLayout Spacing="25"
+                        Padding="30,0"
+                        VerticalOptions="Center">
+        <VerticalStackLayout Spacing="11">
+            <Label Text="{Binding Title}" VerticalOptions="Center" HorizontalOptions="Center" 
+                   FontSize="30" TextColor="LightGreen" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            <Label Text="Please look at our Menu and Restaurant Locations" FontSize="18" TextColor="LightGreen" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Padding="10">
+            <Image Source="https://images-prod.healthline.com/hlcmsresource/images/AN_images/vegetarian-diet-plan-1296x728-feature.jpg"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout Padding="10">
+            <Image Source="https://www.salts.co.uk/Files/Images/veggie-blog-banner.png"/>
+        </VerticalStackLayout>
+
+        
+
+
+    </VerticalStackLayout>
+</ContentPage>

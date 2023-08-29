@@ -1,0 +1,22 @@
+[
+  {
+    "Title": "Veg Biryani",
+    "Description": "Prepared with fragrant basmati rice, vegetables, flavorful spices, and occasionally nuts and dried fruits.",
+    "Image": "https://cookingfromheart.com/wp-content/uploads/2017/09/Veg-Biryani-in-Pressure-Cooker-6.jpg"    
+  },
+  {
+    "Title": "Bean Burger",
+    "Description": "A vegan burger prepared with mashed black beans, kidney beans, vegetables, and different seasonings.",
+    "Image": "https://www.seriouseats.com/thmb/HWZvh-XA0CzEzUryHL_RXpTUP9E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2014__03__20210322-BlackBean-Burgers-Andrew_Janjigian-18-4785208fd31e47118e2669bc7ec2aa71.jpg"    
+  }, 
+  {
+    "Title": "Vegetarian Sandwich",
+    "Description": "A vegetarian sandwich prepared with cheese, tomatoes, avocados and peppers.",
+    "Image": "https://thekitchengirl.com/wp-content/uploads/Vegan-Veggie-Sandwich-Even-Meat-Eaters-Love-Recipe-by-The-Kitchen-Girl_12.jpg"    
+  },
+  {
+    "Title": "Vegan Momos",
+    "Description": "A type of dumpling originating from China. Its filling with consists of ginger, cumin, garlic and cilantro.",
+    "Image": "https://thecurrymommy.com/wp-content/uploads/2021/09/vegan-momos-1200.jpg"    
+  }
+]

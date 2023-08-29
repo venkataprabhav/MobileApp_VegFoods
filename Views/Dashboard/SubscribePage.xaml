@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VegFoods.Views.Dashboard.SubscribePage"
+             Title="Premium Account">
+    <VerticalStackLayout
+        Spacing="30"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+
+        <VerticalStackLayout Spacing="10">
+            <Label Text="Subscribe?" FontSize="27" TextColor="LightGreen" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            <Label Text="Enjoy 10% off on all items!" FontSize="20" TextColor="LightGreen" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            <Label Text="£5 Per Month" FontSize="15" TextColor="LightGreen" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Frame HeightRequest="45" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Entry TextColor="Black" Margin="18,0,0,0" VerticalOptions="Center" Placeholder="Card Number" Keyboard="Email"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Spacing="10">
+            <Frame HeightRequest="45" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Entry TextColor="Black"  Margin="18,0,0,0" VerticalOptions="Center" Placeholder="CVV" IsPassword="True"/>
+            </Frame>
+            <Frame HeightRequest="45" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Entry TextColor="Black"  Margin="18,0,0,0" VerticalOptions="Center" Placeholder="Expiry Date" IsPassword="True"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Frame HeightRequest="45" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Entry TextColor="Black" Margin="18,0,0,0" VerticalOptions="Center" Placeholder="Full Name of Card Holder" Keyboard="Email"/>
+            </Frame>
+        </StackLayout>
+
+        <Button Text="Purchase" BackgroundColor="LightGreen" HorizontalOptions="Center" WidthRequest="100" CornerRadius="20"/>
+
+        
+
+    </VerticalStackLayout>
+    
+    
+</ContentPage>

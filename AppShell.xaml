@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+	x:Class="VegFoods.AppShell"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:dashboard="clr-namespace:VegFoods.Views.Dashboard"
+    xmlns:views="clr-namespace:VegFoods.Views"
+	xmlns:local="clr-namespace:VegFoods"
+    Shell.TabBarIsVisible="False">
+
+
+
+    <ShellContent
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+		ContentTemplate="{DataTemplate views:LoadPage}"
+		Route="LoadPage" />
+
+    <ShellContent
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+		Title="Main"
+		ContentTemplate="{DataTemplate views:MainPage}"
+		Route="MainPage" />
+
+    <ShellContent
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+		ContentTemplate="{DataTemplate views:RegisterPage}"
+		Route="RegisterPage" />
+
+    <ShellContent
+        ContentTemplate="{DataTemplate dashboard:MenuPage}"
+		Route="MenuPage" />
+
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" >
+        <ShellContent
+		Title="Dashboard" Icon="bean_burger.png" Route="DashboardPage"
+		ContentTemplate="{DataTemplate dashboard:DashboardPage}"/>
+
+        <ShellContent
+		Title="Menu"  
+		ContentTemplate="{DataTemplate dashboard:MenuPage}"/>
+
+        <ShellContent
+		Title="Restaurant Locations" Icon="bean_burger.png"
+		ContentTemplate="{DataTemplate views:MapPage}"/>
+
+        <ShellContent
+		Title="Subscribe" Icon="bean_burger.png"
+		ContentTemplate="{DataTemplate dashboard:SubscribePage}"/>
+        
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="18">
+            <Button Text="Sign Out" Command="{Binding SignOutCommand}"/>
+        </StackLayout>
+    </Shell.FlyoutFooter>
+
+</Shell>
