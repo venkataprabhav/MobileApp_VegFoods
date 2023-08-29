@@ -1,6 +1,9 @@
 # VegFoods Restaurant App
 Mobile Application for a restaurant chain named 'VegFoods'. 
 
+This Application was made using C# and Xamarin using Visual Studio - .NET MAUI 
+
+
 A User can login and register with their email.
 Account details of users are stored in a database.
 
