@@ -1,10 +1,10 @@
 # VegFoods Restaurant App
-Mobile Application for a restaurant chain named 'VegFoods'. 
+Mobile Application for a hypothetical restaurant chain named 'VegFoods'. 
 
-This Application was made using C# and Xamarin using Visual Studio - .NET MAUI 
+This Application was made using C# and Xamarin using Microsoft Visual Studio - .NET MAUI 
 
 
-A User can login and register with their email.
+Users can login and register with their email.
 Account details of users are stored in a database.
 
 The app contains a Menu where one can browse the options of dishes. Uses JSON file to retrieve data.
