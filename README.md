@@ -16,7 +16,7 @@ There is an option to subscribe for £5 per month to get the 'Premium Account' s
 
 
 ### Login Page
-![image](https://github.com/venkataprabhav/MobileApp_VegFoods/assets/123014399/55423e3e-0ef5-4cbe-895c-c6085f43314f)
+![image](https://github.com/venkataprabhav/MobileApp_VegFoods/assets/123014399/55423e3e-0ef5-4cbe-895c-c6085f43314f) = 250x
 
 
 ### Homepage
