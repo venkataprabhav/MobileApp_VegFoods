@@ -3,6 +3,7 @@ Mobile Application for a hypothetical restaurant chain named 'VegFoods'.
 
 This Application was made using C# and Xamarin using Microsoft Visual Studio - .NET MAUI 
 
+This Mobile Application runs on Microsoft Visual Studio
 
 Users can login and register with their email.
 Account details of users are stored in a database.
